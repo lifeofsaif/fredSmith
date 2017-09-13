@@ -1,14 +1,20 @@
 {
-  "name": "twitBot",
-  "version": "1.0.0",
-  "main": "bot.js",
-  "scripts": {
-    "start": "node bot.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "saif",
-  "license": "ISC",
-  "dependencies": {
-    "twit": "*"
-  }
+    "name": "zoran",
+    "version": "1.0.0",
+    "description": "data analysis tool for distance calculations",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "express": "*",
+        "mongoose": "*",
+        "twit": "*",
+        "googleapis": "*",
+        "google-auth-library": "*",
+        "mail-notifier": "*"
+    },
+    "author": "Abdur Rahman",
+    "license": "ISC",
+    "repository": "https://github.com/lifeofsaif/zoran"
 }
